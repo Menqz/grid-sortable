@@ -1,19 +1,19 @@
 {
-    "name": "open-admin-ext/grid-sortable",
+    "name": "menqz/grid-sortable",
     "description": "Sort the grid data by drag and drop rows",
     "type": "library",
-    "keywords": ["open-admin", "extension", "grid", "sortable"],
-    "homepage": "https://github.com/open-admin-org/grid-sortable",
+    "keywords": ["menqz", "menqz-admin", "extension", "grid", "sortable"],
+    "homepage": "https://github.com/menqz/grid-sortable",
     "license": "MIT",
     "authors": [
         {
-            "name": "sb | open-admin.org",
-            "email": "info@open-admin.org"
+            "name": "Menqz",
+            "email": "info@menqz.com.br"
         }
     ],
     "require": {
         "php": ">=7.3.0",
-        "open-admin-org/open-admin": ">=1.0.0",
+        "menqz/menqz-admin": "*",
         "spatie/eloquent-sortable": "*"
     },
     "require-dev": {
@@ -21,13 +21,13 @@
     },
     "autoload": {
         "psr-4": {
-            "OpenAdmin\\Admin\\GridSortable\\": "src/"
+            "MenqzAdmin\\Admin\\GridSortable\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OpenAdmin\\Admin\\GridSortable\\GridSortableServiceProvider"
+                "MenqzAdmin\\Admin\\GridSortable\\GridSortableServiceProvider"
             ]
         }
     }

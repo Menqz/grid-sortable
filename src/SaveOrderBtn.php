@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\GridSortable;
+namespace MenqzAdmin\Admin\GridSortable;
 
-use OpenAdmin\Admin\Grid\Tools\AbstractTool;
+use MenqzAdmin\Admin\Grid\Tools\AbstractTool;
 
 class SaveOrderBtn extends AbstractTool
 {

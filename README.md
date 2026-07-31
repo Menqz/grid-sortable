@@ -1,5 +1,8 @@
-Open-Admin - grid-sortable
-======
+Grid Sortable for menqz-admin
+
+Forked from [open-admin](https://github.com/open-admin-org/open-admin)
+
+
 
 This extension can help you sort by dragging the rows of the data list, the front end is based on [sortableJS](https://github.com/SortableJS/Sortable), and the back end is based on [eloquent-sortable](https://github.com/spatie/eloquent-sortable)
 
@@ -9,7 +12,7 @@ This extension can help you sort by dragging the rows of the data list, the fron
 ## Installation
 
 ```shell
-composer require open-admin-ext/grid-sortable
+composer require menqz/grid-sortable
 ```
 
 ## Usage

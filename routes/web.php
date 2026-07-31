@@ -1,3 +1,3 @@
 <?php
 
-Route::post('_grid-sortable_', '\OpenAdmin\Admin\GridSortable\Controllers\GridSortableController@sort')->name('open-admin-grid-sortable');
+Route::post('_grid-sortable_', '\MenqzAdmin\Admin\GridSortable\Controllers\GridSortableController@sort')->name('menqz-admin-grid-sortable');

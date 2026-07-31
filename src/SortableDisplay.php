@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenAdmin\Admin\GridSortable;
+namespace MenqzAdmin\Admin\GridSortable;
 
-use OpenAdmin\Admin\Admin;
-use OpenAdmin\Admin\Grid\Displayers\AbstractDisplayer;
+use MenqzAdmin\Admin\Admin;
+use MenqzAdmin\Admin\Grid\Displayers\AbstractDisplayer;
 
 class SortableDisplay extends AbstractDisplayer
 {
@@ -11,7 +11,7 @@ class SortableDisplay extends AbstractDisplayer
     {
         $id = $this->getGrid()->tableID;
 
-        $route = route('open-admin-grid-sortable');
+        $route = route('menqz-admin-grid-sortable');
         $class = addslashes(get_class($this->getGrid()->model()->getOriginalModel()));
 
         $script = <<<SCRIPT
