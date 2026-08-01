@@ -8,7 +8,7 @@ class SaveOrderBtn extends AbstractTool
 {
     public function render()
     {
-        $text = __('Save order');
+        $text = __('admin.save_order');
 
         return <<<HTML
 <button type="button" class="btn btn-sm btn-primary grid-save-order-btn d-none">
